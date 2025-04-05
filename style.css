@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(41, 44, 50);
+    /* font-family: 'Finger Paint', cursive; */
+}
+
+h1, p, h2, h3, h4{
+    color: white;
+
+}
+span{
+    color: rgb(188,124, 215);
+}
+.nav-bar{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: 120px;
+}
+.nav-name {
+    font-size: 60px;
+    margin-right: 450px;
+}
+.nav-items{
+    display: inline-flex;
+}
+.nav-items h4{
+    font-size: 30px;
+    padding: 20px;
+}
+.home{
+    margin-top: 100px;
+    margin-left: 120px;
+    height: 800px;
+    width: 90%;
+    display: flex;
+}
+.home .home-div {
+    /* font-size: 40px; */
+    height: 200px;
+    width: 1200px;
+    /* border: 2px solid white; */
+}
+.home-div .home-intro {
+    font-size: 80px;
+}
+.home .home-div h3{
+    font-size: 30px;
+    color: rgb(172, 178, 190);
+    padding-top: 50px;
+}
+.home .home-div button{
+    border: 2px solid rgb(188,124, 215);
+    font-size: 30px;
+    color: white;
+    height: 50px;
+    width: 230px;
+    margin-top: 50px;
+}
+.home .home-img {
+    margin-left: 130px;
+    
+}
+.home-img img{
+    border-radius: 13px;
+}
+/* .quote {
+    font-size: 30px;
+    height: 200px;
+} */
+.projects {
+    width: 90%;
+    margin-left: 120px;
+    height: 900px;
+}
+.projects h1{
+    font-size: 50px;
+}
+.projects .projects-show{
+    margin-top: 50px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+    transition: transform 0.5ms ease-in;
+    height: 760px;
+    margin-left: 50px;
+}
+.projects-show .project{
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 150px;
+    border: 2px solid rgb(172, 178, 190);
+    /* border-radius: 15px; */
+
+}
+.project img{
+    /* border-radius: 15px; */
+}
+.project h1{
+    text-align: center;
+}
+.project p{
+    color: rgb(172, 178, 190);
+    margin-top: 18px;
+    text-align: center;
+    font-size: 25px;
+}
+.project div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.project button{
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    color: white;
+    margin-top: 18px;
+    border: 2px solid rgb(188,124, 215);
+}
+.project a{
+    text-decoration: none;
+    color: white;
+}
+.skills {
+    width: 90%;
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.skills .skills-boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 200px;
+}
+.skills h1{
+    font-size: 50px;
+}
+.skills .box{
+    border: 2px solid rgb(172, 178, 190);
+    height: 170px;
+    width: 250px;
+}
+.box h1 {
+    font-size: 30px;
+    padding-left: 10px;
+}
+.box h3{
+    color: rgb(172, 178, 190);
+    font-size: 25px;
+    
+    padding: 7px;
+}
+.about-me{
+    width: 90%;
+    margin-left: 120px;
+    display: flex;
+}
+.about-div {
+    width: 45%;
+}
+.about-div h1{
+    font-size: 50px;
+    
+}
+.about-div .about-para {
+    color: rgb(172, 178, 190);
+    font-size: 30px;
+    padding: 50px;
+}
+.about-img {
+    width: 50%;
+    margin-left: 620px;
+}
+.contacts {
+    width: 90%;
+    margin-left: 120px;
+    display: flex;
+    height: 500px;
+}
+.contacts .contacts-para {
+    width: 50%;
+}
+.contacts-para h1{
+    font-size: 50px;
+}
+.contacts-para p{
+    font-size: 30px;
+    color: rgb(172, 178, 190);
+    padding: 50px;
+}
+.contacts-msg{
+    width: 50%;
+}
+.contacts-msg div {
+    border: 2px solid rgb(172, 178, 190);
+    height: 200px;
+    width: 250px;
+    margin-left: 400px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.contacts div p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.contacts-msg a{
+    font-size: 75px;
+    color: rgb(172, 178, 190);
+    justify-content: center;
+    align-items: center;
+}
